@@ -186,7 +186,7 @@ writeWelcomeMessage() {
                 case "telegram":
                     if (!this.wallet?.isConnected()) {
                         this.writeLine(
-                            "Our telegram_link - ",
+                            "Our telegram_link - https://t.me/OMGAIWTF",
                             "31",
                         );
                         return;

@@ -495,7 +495,7 @@ class SolanaWallet {
         if (this.connectButton) {
             this.connectButton.textContent = isConnected
                 ? "Disconnect Wallet"
-                : "Wallet connection at 00:00 UTC";
+                : "Wallet connection at 20:00 UTC";
         }
 
         if (this.explainer) {
